@@ -1,0 +1,27 @@
+body {
+  background: /* top, transparent black, faked with gradient */
+  url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/D8qa-2E/blue-light-rainy-day-mood-raining-weather-background-water-drops-on-window_bflfeee7r__F0000.png"),no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #000080 !important;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+}
+
+
+img {
+  filter: brightness(0) invert(1);
+}
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #000080;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
