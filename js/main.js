@@ -12,7 +12,7 @@ $(document).ready(function() {
 
       $("#country").html("<h2>" + json.name + "," + json.sys.country + "</h2>");
 
-      $("#description").html("<h3>" + json.weather[0].description + " |  wind - " + json.wind.speed + " knots </h3>");
+      $("#description").html("<h3>" + json.weather[0].description + " |  wind - " + (json.wind.speed * 1.852).toFixed(1) + " km/h </h3>");
 
       $("#temperature").html("<h2>" + (json.main.temp).toFixed(1) + "	&#8451;" + "</h2>");
       $("#choice").html("<button >CELSIUS</button>");
